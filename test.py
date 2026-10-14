@@ -1,9 +1,15 @@
-for i in range(5):
-    print(i+i)
-    # print(i, "X", i, "=", i*i)
+# 1
+# for i in range(1, 11):
+#     print(f"2 X {i} = {2*i}")
 
+# 2
+# i = 0
+# while i<11:
+#     # print(i)
+#     print(f"5 X {i} = {5*i}")
+#     i += 1
 
-
+# 3
 # class Person:
 #     def __init__(self, name):
 #         self.name = name           # Convertion: underscore (_) denotes a private attribute
@@ -24,37 +30,41 @@ for i in range(5):
 # p.set_name("Newyork")
 # print(p.get_name())
 
+# 4
+# class person:
+#     leave = "le"
 
-
-
-
-# class Person:
 #     def __init__(self, name, salary, company):
 #         self.name = name
 #         self.salary = salary
 #         self.company = company
 
-#     def get_salary(self):
-#         return self.salary
+#     def yark(self):
+#         print(f"Your name is {self.name} and this is your monthly salary {self.salary}\nyour company {self.company} is details")
 
-#     def get_info(self):
-#         print(f"your name is {self.name}\nthis is your per month salary {self.name} thousand\n and you work as a enginear in this {self.company}")
-        
+# e = (person("gres", 8586, "uncpect"))
+# e.yark()
 
-# a = Person("Shubhav", 45677, "jones")
-# # print(a)
-# print(a.get_salary())
-# print(a.get_info())
-# # get_info()
+# 5
+class destory:
+    code = "34554"
+    def __init__(self, morning, capital, russia):
+        self.morning = morning
+        self.capital = capital
+        self.russia = russia
+    # @staticmethod
+    def year(self):
+        print(f"That is very important\nAlert!\nEveryone please! \"Be Careful\"\n{self.russia} is very weak at this movement.\tso,\nwe will attack in {self.russia} with use tons of guns and rockets and in {self.russia} Capital is {self.capital}. we will be attack in the {self.morning}!\n We hope  \"we will be successed!\n")
 
+    @classmethod
+    def ready(cls):
+        print(f"twenty twentyseven june fifteen Code is here {cls.code}")
 
+secret = destory("Morning", "Moscow", "Russia")
+secret.year()
+secret.ready()
 
-
-
-
-
-
-
+# 6
 
 
 
